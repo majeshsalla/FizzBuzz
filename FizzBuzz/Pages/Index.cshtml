@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <form method="post">
+        <div class="text-center">
+            <div class="form-group">
+                <label style="font-weight:bolder">Input:</label>
+                <input class="form-control" placeholder="Enter Comma Seperated Values" asp-for="Input" />
+            </div>
+            <button class="btn btn-primary" type="submit">Process</button>
+            <button class="btn btn-primary" type="submit" asp-page-handler="Way2">Clear</button>
+        </div>
+    </form>
+    <div id="result">
+        @if (Model.Result != null && Model.Result.Count != 0)
+        {
+            @foreach (var item in Model.Result)
+            {
+                <ul>@item</ul>
+            }
+        }
+    </div>
+</div>
