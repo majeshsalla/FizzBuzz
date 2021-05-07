@@ -1,5 +1,7 @@
 # FizzBuzz
 
+App Url: https://fizzbuzz20210506222816.azurewebsites.net/
+
 Basic ASP.NET Core Web Application which is deployed to Azure.
 This Application takes in collection of Values and prints output once everything is processed.
 
