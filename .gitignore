@@ -348,5 +348,3 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-/FizzBuzz/.config/dotnet-tools.json
-/FizzBuzz/Properties/ServiceDependencies/myFizzBuzz - Web Deploy/profile.arm.json
